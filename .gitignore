@@ -1,0 +1,19 @@
+# Data files (FIES PUF is too large for GitHub; download from the PSA Data Archive)
+*.csv
+*.CSV
+*.dta
+*.sav
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
