@@ -47,6 +47,7 @@ The data file is **not included** in this repository because of its size. Downlo
 ```
 ph-family-income-eda/
 ├── README.md
+├── requirements.txt
 ├── fies_2023_vices_analysis.ipynb   # main analysis notebook
 └── FIES PUF 2023 Volume1.CSV        # data (download separately)
 ```
@@ -63,9 +64,22 @@ ph-family-income-eda/
 
 ## Setup
 
-```bash
-pip install pandas numpy matplotlib seaborn scipy scikit-learn jupyter
+Requires Python 3.10+.
+
+**1. Create and activate a virtual environment**
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
+
+**2. Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**3. Run the notebook**
 
 ```bash
 jupyter notebook fies_2023_vices_analysis.ipynb
